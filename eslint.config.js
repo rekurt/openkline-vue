@@ -1,4 +1,4 @@
-// Flat ESLint config for @rekurt/ohlcv-vue.
+// Flat ESLint config for @rekurt/openkline-vue.
 //
 // Scopes:
 //   - src/ — strict TypeScript + no-console (lib code should dispatch

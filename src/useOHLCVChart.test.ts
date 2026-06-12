@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll, beforeEach, afterEach } from 'vitest';
 import { createApp, defineComponent, h, ref, type App } from 'vue';
 import { useOHLCVChart } from './useOHLCVChart';
-import type { OHLCVChart, ChartType } from '@rekurt/ohlcv-core';
+import type { OHLCVChart, ChartType } from '@rekurt/openkline-core';
 
 /** Inline canvas stub — same pattern as OHLCVChart.test.ts. */
 function installCanvasStub(): void {

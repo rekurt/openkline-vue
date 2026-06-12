@@ -10,4 +10,4 @@ export type {
   ThemeColors,
   ThemeMode,
   ChartConfig,
-} from '@rekurt/ohlcv-core';
+} from '@rekurt/openkline-core';
