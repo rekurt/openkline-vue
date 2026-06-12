@@ -1,17 +1,17 @@
 {
-  "name": "@rekurt/ohlcv-vue",
+  "name": "@rekurt/openkline-vue",
   "version": "0.1.0",
-  "description": "Vue 3 wrapper for @rekurt/ohlcv-core — <OHLCVChart> component and useOHLCVChart composable.",
+  "description": "Vue 3 wrapper for @rekurt/openkline-core — <OHLCVChart> component and useOHLCVChart composable.",
   "keywords": ["ohlcv", "candlestick", "chart", "vue", "vue3", "trading", "canvas"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rekurt/ohlcv-vue.git"
+    "url": "git+https://github.com/rekurt/openkline-vue.git"
   },
   "bugs": {
-    "url": "https://github.com/rekurt/ohlcv-vue/issues"
+    "url": "https://github.com/rekurt/openkline-vue/issues"
   },
-  "homepage": "https://github.com/rekurt/ohlcv-vue#readme",
+  "homepage": "https://github.com/rekurt/openkline-vue#readme",
   "type": "module",
   "exports": {
     ".": {
@@ -46,12 +46,12 @@
     "node": ">=18.18.0"
   },
   "peerDependencies": {
-    "@rekurt/ohlcv-core": "^0.1.0",
+    "@rekurt/openkline-core": "^0.1.0",
     "vue": ">=3.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
-    "@rekurt/ohlcv-core": "file:./vendor/rekurt-ohlcv-core.tgz",
+    "@rekurt/openkline-core": "file:./vendor/rekurt-openkline-core.tgz",
     "@types/node": "^25.9.1",
     "eslint": "^9.39.4",
     "eslint-plugin-vue": "^10.9.1",

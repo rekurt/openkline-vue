@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll, beforeEach, afterEach } from 'vitest';
 import { createApp, h, ref as vueRef, type App } from 'vue';
 import { OHLCVChart } from './OHLCVChart';
-import type { IndicatorConfig } from '@rekurt/ohlcv-core';
+import type { IndicatorConfig } from '@rekurt/openkline-core';
 
 /** Minimal inline canvas stub for jsdom — no cross-package imports. */
 function installCanvasStub(): void {
